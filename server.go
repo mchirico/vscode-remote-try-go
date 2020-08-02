@@ -10,11 +10,11 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/microsoft/vscode-remote-try-go/hello"
+	"github.com/mchirico/vscode-remote-try-go/hello"
 )
 
 func handle(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, hello.Hello())
+	io.WriteString(w, hello.Bozo())
 }
 
 func main() {

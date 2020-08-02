@@ -17,6 +17,6 @@ type Address struct {
 var alex = User{}
 
 // Hello writes a welcome string
-func Hello() string {
-	return "Hello, " + alex.Name
+func Bozo() string {
+	return "Yo!... " + alex.Name
 }
