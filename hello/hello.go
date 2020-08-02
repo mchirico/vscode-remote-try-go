@@ -13,8 +13,8 @@ type Address struct {
 	ZIP    int
 	LatLng [2]float64
 }
-
-var alex = User{}
+var lat  [2]float64
+var alex = User{2, "Pogo", &Address{ "Philadelphia", 19080, lat }}
 
 // Hello writes a welcome string
 func Bozo() string {
