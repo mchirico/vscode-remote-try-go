@@ -18,5 +18,5 @@ var alex = User{2, "Pogo", &Address{ "Philadelphia", 19080, lat }}
 
 // Bozo writes a welcome string
 func Bozo() string {
-	return "Yo!... " + alex.Name
+	return "Yo... " + alex.Name
 }
