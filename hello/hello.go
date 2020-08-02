@@ -16,7 +16,7 @@ type Address struct {
 var lat  [2]float64
 var alex = User{2, "Pogo", &Address{ "Philadelphia", 19080, lat }}
 
-// Hello writes a welcome string
+// Bozo writes a welcome string
 func Bozo() string {
 	return "Yo!... " + alex.Name
 }
